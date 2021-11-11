@@ -1,5 +1,5 @@
 {
-    "name": "zhc/yii2-widget-media-library",
+    "name": "yuankezhan/yii2-widget-media-library",
     "description": "yii widget img media-library",
     "type": "library",
     "autoload": {
