@@ -1,0 +1,17 @@
+{
+    "name": "kartik-v/yii2-widget-media-library",
+    "description": "yii widget img media-library",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "KartikV\\Yii2WidgetMediaLibrary\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "张海春",
+            "email": "741698941@qq.com"
+        }
+    ],
+    "require": {}
+}
