@@ -7,11 +7,15 @@
             "KartikV\\Yii2WidgetMediaLibrary\\": "src/"
         }
     },
+    "license": "MIT",
     "authors": [
         {
             "name": "张海春",
             "email": "741698941@qq.com"
         }
     ],
-    "require": {}
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.2.5 || ^8.0"
+    }
 }
