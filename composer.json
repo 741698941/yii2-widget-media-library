@@ -17,9 +17,9 @@
     "require": {
         "php": ">=5.4"
     },
-    "require-dev": {
-        "php": ">=5.4",
-      },
+"require-dev": {
+        "php": ">=5.4"
+    },
     "extra": {
         "branch-alias": {
             "dev-master": "1.0.x-dev"
