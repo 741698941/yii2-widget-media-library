@@ -1,21 +1,18 @@
 {
     "name": "yuankezhan/yii2-widget-media-library",
-    "description": "yii widget img media-library",
     "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
-            "KartikV\\Yii2WidgetMediaLibrary\\": "src/"
+            "Yuankezhan\\Yii2WidgetMediaLibrary\\": "src/"
         }
     },
-    "license": "MIT",
     "authors": [
         {
             "name": "张海春",
             "email": "741698941@qq.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {
-        "php": "^7.2.5 || ^8.0"
-    }
+    "minimum-stability": "beta",
+    "require": {}
 }
