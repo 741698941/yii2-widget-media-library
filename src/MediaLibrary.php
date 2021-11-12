@@ -1,10 +1,10 @@
 <?php
 
-namespace kartik\mediaLibrary;
+namespace yuankezhan\mediaLibrary;
 
-use kartik\base\Widget;
+use yii\base\Widget as YiiWidget;
 
-class MediaLibrary extends Widget
+class MediaLibrary extends YiiWidget
 {
     /**
      * @var string $showClass

@@ -1,8 +1,7 @@
 <?php
 
-namespace kartik\mediaLibrary;
+namespace yuankezhan\mediaLibrary;
 
-use kartik\base\AssetBundle;
 
 class MediaLibraryAssets extends AssetBundle
 {
