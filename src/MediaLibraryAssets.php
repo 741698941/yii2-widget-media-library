@@ -1,6 +1,7 @@
 <?php
 
 namespace yuankezhan\mediaLibrary;
+use yii\web\AssetBundle;
 
 
 class MediaLibraryAssets extends AssetBundle
@@ -8,11 +9,21 @@ class MediaLibraryAssets extends AssetBundle
     /**
      * {@inheritdoc}
      */
-    public function init()
-    {
-        $this->setSourcePath(__DIR__ . '/assets');
-        $this->setupAssets('css', ['css/main']);
-        $this->setupAssets('js', ['js/jquery.js', 'js/iconfont.js']);
-        parent::init();
-    }
+    public $sourcePath = __DIR__ . '/assets';
+    public $cssOptions = ['position' => \yii\web\View::POS_BEGIN];
+    public $jsOptions = ['position' => \yii\web\View::POS_BEGIN];
+    /**
+     * {@inheritdoc}
+     */
+    public $css = [
+        'css/main.css',
+//        'css/iconfont.css',
+    ];
+    /**
+     * {@inheritdoc}
+     */
+    public $js = [
+        'js/jquery.js',
+        'js/iconfont.js',
+    ];
 }

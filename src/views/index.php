@@ -1,4 +1,5 @@
 <?php
+use yuankezhan\mediaLibrary\MediaLibraryAssets;
 MediaLibraryAssets::register($this);
 ?>
 <style>
