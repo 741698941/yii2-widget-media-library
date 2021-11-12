@@ -2,11 +2,6 @@
     "name": "yuankezhan/yii2-widget-media-library",
     "type": "library",
     "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Yuankezhan\\Yii2WidgetMediaLibrary\\": "src/"
-        }
-    },
     "authors": [
         {
             "name": "张海春",
