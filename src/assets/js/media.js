@@ -57,7 +57,6 @@ class mediaLibrary extends mediaBase {
     bindEvent() {
         this._resetElem()
         let that = this;
-        // 绑定分组点击事件 () => {} this指向window
         this.GROUP_ITEM.off('click').on('click', that, function () {
             that._groupClick(this);
         });
