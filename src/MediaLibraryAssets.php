@@ -25,5 +25,6 @@ class MediaLibraryAssets extends AssetBundle
     public $js = [
         'js/jquery.js',
         'js/iconfont.js',
+        'js/media.js',
     ];
 }
