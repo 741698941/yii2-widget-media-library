@@ -68,16 +68,14 @@ MediaLibraryAssets::register($this);
      * groupListUrl 获取分组列表请求链接 json [{id:name}]
      */
 
-    (function () {
-        var media = new mediaLibrary().init({
-            imgListUrl : "<?=$imgListUrl?>",
-            groupListUrl : "<?=$groupListUrl?>",
-            addImgUrl : "<?=$imgAddUrl?>",
-            addGroupUrl : "<?=$groupAddUrl?>",
-            sureCallback : "<?=$sureCallback?>",
-            showClass : "<?=$showClass?>",
-        })
-    })();
+    var media = new mediaLibrary().init({
+        imgListUrl : "<?=$imgListUrl?>",
+        groupListUrl : "<?=$groupListUrl?>",
+        addImgUrl : "<?=$imgAddUrl?>",
+        addGroupUrl : "<?=$groupAddUrl?>",
+        sureCallback : "<?=$sureCallback?>",
+        showClass : "<?=$showClass?>",
+    })
 
 </script>
 
