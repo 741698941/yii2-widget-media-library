@@ -123,7 +123,7 @@ class mediaLibrary extends mediaBase {
         setTimeout(() => {
             this.bindEvent();
             this._getGroupList();
-        },1000)
+        },100)
 
     }
 
