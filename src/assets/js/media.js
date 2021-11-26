@@ -260,7 +260,6 @@ class mediaLibrary extends mediaBase {
                 imgArr.push({id : $(element).attr('data-id'), url : $(element).attr('data-url')})
             }
         })
-        console.log(imgArr);
         return imgArr;
     }
 
@@ -278,7 +277,6 @@ class mediaLibrary extends mediaBase {
             that.pageIndex = parseInt(data.pageIndex);
             that.pageCount = parseInt(data.pageCount);
             that._renderPage();
-            console.log(data);
             if (data.pageCount > 0) {
                 for (let item of data.data)
                 {
