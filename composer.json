@@ -1,10 +1,10 @@
 {
-    "name": "yuankezhan/yii2-widget-media-library",
+    "name": "zhc/yii2-widget-media-library",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "yuankezhan\\mediaLibrary\\": "src/"
+            "zhc\\mediaLibrary\\": "src/"
         }
     },
     "authors": [
